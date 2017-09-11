@@ -175,18 +175,16 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <section className="home-sec1">
-          <div style={{margin: "7%", padding: "1%"}}>
-           <div style={{width:"48%", padding:"1%", color: "#fff"}}>
-             <span className="home-text-sm" style={{ padding:"1%",fontWeight:"bolder"}}>School is the platform where dreams begin.</span>
-           <p className="home-text" style={{fontSize:"1.3em", width:"65%", padding:"1%"}}>Having an education creates a world of new opportunities for children and families caught in the poverty trap</p>
-             </div>
-             <br />
-             <NavLink to="/donate" className="purple-btn h-top-btn">MAKE A DONATION</NavLink>
-           </div>
-          <img style={{width: "100%", height: "auto", position: "absolute", top: 0, zIndex: "-10"}} src="modules/assets/homepage.png"/>
-
-        </section>
+<section className="home-sec1">
+  <div style={{margin: "7%", padding: "1%"}}>
+    <div style={{width:"48%", padding:"1%", color: "#fff"}}>
+      <span className="home-text-sm" style={{}}>No child should live in poverty or danger.</span>
+      <p className="home-text" style={{}}>We raise funds in different ways so we can help as many lives as possible.</p>
+    </div>
+    <NavLink to="/donate" className="home-donate-btn">Donate</NavLink>
+  </div>
+  <img className="home-img" style={{}} src="modules/assets/homepage.png"/>
+</section>
         <center style={{margin:"30px auto", width:"70%", padding:"25px"}}>
         <h2 style={{fontSize:"2em"}} className="home-text">We build schools and strive to break the poverty cycle for children living in developing countries.</h2>
         </center>
@@ -243,7 +241,7 @@ class Home extends React.Component {
           <div className="home-impact">
             <div className="home-impact-item" style={{height:"350px",backgroundImage:"url('modules/assets/img28.png')", backgroundSize:"cover"}}></div>
             <div className="home-impact-item" style={{height:"350px",fontSize:"1.5em", backgroundColor:"#fff", textAlign:"center", display:"flex", justifyContent:"center", flexDirection:"column", alignItems:"center", borderTop:"2px solid var(--blue)", borderRight:"2px solid var(--blue)", borderBottom:"2px solid var(--blue)", boxSizing: "border-box", borderTopRightRadius:"5px", borderBottomRightRadius:"5px"}}>
-              <span style={{display:"block", margin:" 0 50px;"}}>Our schools help steer children away from child labour and other forms of child abuse.</span>
+              <span style={{display:"block", margin:" 0 50px"}}>Our schools help steer children away from child labour and other forms of child abuse.</span>
               <br/>
               <NavLink to="/impact">
                 <span className="orange-inverse-btn" style={{fontSize:"0.9em"}}>See more of our impact</span>
