@@ -17,5 +17,5 @@ app.listen(port, function() {
 });
 
 setInterval(function() {
-  app.get("https://tranquil-gorge-29763.herokuapp.com/");
+  app.get("https://scoop-foundation.herokuapp.com/");
 }, 300000);
